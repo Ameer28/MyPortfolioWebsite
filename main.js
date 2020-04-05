@@ -35,8 +35,3 @@ submitButton.addEventListener('click', function (event) {
   writeToMeForm.submit();
 });
 
-$('.imgFadeHover').hover(function () {
-  $(this).siblings().addClass('fadeHover');
-}, function () {
-  $(this).siblings().removeClass('fadeHover');
-});

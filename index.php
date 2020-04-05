@@ -61,7 +61,7 @@ $msg = 'Please use a valid email';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Ameer Pestana</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
     <!----------------------------------------------Bootstrap CSS---------------------------------------------->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -78,7 +78,7 @@ $msg = 'Please use a valid email';
             </a>
             <button class="navbar-toggler hamburger-nav" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-hamburger"><img src="bars-solid.svg"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
@@ -107,7 +107,7 @@ $msg = 'Please use a valid email';
             <h3>I'M BLOCKCHAIN READY.</h3>
             <!------------------------------------------Write To Me Button------------------------------------------------>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#writeToMeModal"
-                data-whatever="@Ameer">Write To Me</button>
+                data-whatever="Ameer">Write To Me</button>
             <!------------------------------------------Write To Me Modal Form-------------------------------------------->
             <div class="modal fade" id="writeToMeModal" tabindex="-1" role="dialog"
                 aria-labelledby="writeToMeModalLabel" aria-hidden="true" data-backdrop="static">
@@ -149,44 +149,79 @@ $msg = 'Please use a valid email';
         </div>
     </section>
     <!---------------------------------------------My Projects---------------------------------------------------->
-    <section class="myProjects">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="row">
-                    <div class="col-sm-12 col-lg-4">
-                        <img class="img-fluid imgCenter imgFadeHover " src="meanStackLogos.jpeg" style="width: 90%">
+<section class="bg-dark">
+    <div class="container py-5">
+        <div class="py-5">
+            <div class="row">
+
+                <div class="col-lg-4 mb-3 mb-lg-0">
+                    <div class="hover hover-2 text-white rounded"><img src="meanStackLogos.jpeg">
+                        <div class="hover-overlay"></div>
+                        <div class="hover-2-content px-5 py-4">
+                            <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
+                                    class="font-weight-light"> Mean Stack </span>App</h3>
+                            <p class="hover-2-description text-uppercase mb-0">Short description of app
+                                <br>More details</p>
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4">
-                        <img class="img-fluid imgCenter imgFadeHover" src="javaLogo.jpeg" style="width: 72%">
+                </div>
+
+
+                <div class="col-lg-4">
+                    <div class="hover hover-2 text-white rounded"><img src="javaLogo.jpeg">
+                        <div class="hover-overlay"></div>
+                        <div class="hover-2-content px-5 py-4">
+                            <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
+                                    class="font-weight-light">Java </span>App</h3>
+                            <p class="hover-2-description text-uppercase mb-0">Short description of app
+                                <br>more details</p>
+                        </div>
                     </div>
-                    <div class="col-sm-12 col-lg-4">
-                        <img class="img-fluid imgCenter imgFadeHover" src="blockchain.jpg" style="width: 82%">
+                </div>
+
+
+                <div class="col-lg-4">
+                    <div class="hover hover-2 text-white rounded"><img src="blockchain.jpg">
+                        <div class="hover-overlay"></div>
+                        <div class="hover-2-content px-5 py-4">
+                            <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
+                                    class="font-weight-light">Blockchain </span>App</h3>
+                            <p class="hover-2-description text-uppercase mb-0">Short description of app
+                                <br>more details</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
     </section>
 
 
+    <!-------------------------------------------About Me-------------------------------------------------------->
+    <section class="aboutMe">
+
+    </section>
+
+    <!----------------------------------------------My JS & Jquery------------------------------------------------->
+    <script type="text/javascript" src="main.js"></script>
+
+    <!----------------------------------------------Bootstrap JS-------------------------------------------------->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js">
+    </script>
+
 </body>
-
-<!----------------------------------------------My JS--------------------------------------------------------->
-<script type="text/javascript" src="main.js"></script>
-
-<!----------------------------------------------Bootstrap JS-------------------------------------------------->
-<script src="jquery.js"></script>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-</script>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js">
-</script>
 
 </html>

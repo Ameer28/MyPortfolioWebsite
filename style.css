@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     overflow-x: hidden;
 }
@@ -95,14 +99,27 @@ body {
 }
 
 /******************My Projects*********************/
+.gradientDark {
+    background-image: linear-gradient(#131313, #303030);
+}
 
-/* DEMO GENERAL ============================== */
+.gradientDark h1 {
+    text-align: center;
+    color: #40E0D0;
+    padding-top: 2rem;
+}
+
+.py-5 {
+    padding: 10rem ;
+}
+
 .hover {
     overflow: hidden;
     position: relative;
     padding-bottom: 60%;
     color: white;
     font-family: sans-serif;
+    box-shadow: 5px 10px 10px #131313;
 }
 
 .hover-overlay {
@@ -121,6 +138,7 @@ body {
     top: 0;
     left: 0;
     transition: all 0.3s;
+    filter: grayscale(100%);
 }
 
 .hover-content {
@@ -128,7 +146,6 @@ body {
     z-index: 99;
 }
 
-/* DEMO 2 ============================== */
 .hover-2 .hover-overlay {
     background: linear-gradient(to top, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1));
 }
@@ -164,15 +181,59 @@ body {
 }
 
 .hover-2:hover .hover-overlay {
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1));
+    background: linear-gradient(to top, rgba(0, 27, 58, 1), rgba(0, 0, 0, 0.1));
 }
 
 /*****************About Me*************************/
 .aboutMe {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/MBSnight.jpg");
-    height: 50%;
+    background-image: linear-gradient(rgba(19, 19, 19, 1), rgba(0, 0, 0, 0.5)), url("MBSdayCropped.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    padding: 150px 60px;
+}
+
+.aboutMe h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+    margin-bottom: 5rem;
+    color: #40E0D0;
+}
+
+.myProfilePic {
+    text-align: center;
+}
+
+.myProfilePic img {
+    border-radius: 50%;
+    height: 14rem;
+    margin-bottom: 4rem;
+    box-shadow: 3px 5px;
+}
+
+.myProfileDescription p {
+    font-size: 22px;
+    color: #40E0D0;
+}
+
+.socialNetworks {
+    text-align: center;
+    padding: 3rem;
+}
+
+.socialNetworks img{
+    background-color: #40E0D0;
+    margin: 3rem;
+}
+
+/*****************Footer*********************************/
+.copyrightFoot {
+    text-align: center;
+    background-color: #131313;
+    margin: 0rem;
+}
+.copyrightFoot p {
+    color: #40E0D0;
+    margin: 0rem;
 }

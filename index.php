@@ -86,10 +86,10 @@ $msg = 'Please use a valid email';
                         <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
+                        <a class="nav-link" href="#myProjects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -149,8 +149,8 @@ $msg = 'Please use a valid email';
         </div>
     </section>
     <!---------------------------------------------My Projects---------------------------------------------------->
-<section class="bg-dark">
-    <div class="container py-5">
+    <section class="bg-dark gradientDark" id="myProjects">
+        <h1>My Projects</h1>
         <div class="py-5">
             <div class="row">
 
@@ -166,8 +166,7 @@ $msg = 'Please use a valid email';
                     </div>
                 </div>
 
-
-                <div class="col-lg-4">
+                <div class="col-lg-4 mb-3 mb-lg-0">
                     <div class="hover hover-2 text-white rounded"><img src="javaLogo.jpeg">
                         <div class="hover-overlay"></div>
                         <div class="hover-2-content px-5 py-4">
@@ -179,8 +178,7 @@ $msg = 'Please use a valid email';
                     </div>
                 </div>
 
-
-                <div class="col-lg-4">
+                <div class="col-lg-4 mb-3 mb-lg-0">
                     <div class="hover hover-2 text-white rounded"><img src="blockchain.jpg">
                         <div class="hover-overlay"></div>
                         <div class="hover-2-content px-5 py-4">
@@ -191,16 +189,49 @@ $msg = 'Please use a valid email';
                         </div>
                     </div>
                 </div>
+
             </div>
         </div>
-    </div>
     </section>
-
 
     <!-------------------------------------------About Me-------------------------------------------------------->
-    <section class="aboutMe">
+    <section class="aboutMe" id="contact">
+        <h1>About Me</h1>
+        <div class="container">
+            <div class="row">
 
+                <div class="col-lg-6 myProfilePic">
+                    <img src="myProfilePic2.jpg">
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="myProfileDescription">
+                        <p>Ut venenatis lorem bibendum lacus cursus tincidunt. Aliquam gravida aliquet sapien sit
+                            amet finibus. Morbi quis sapien nisi. Pellentesque non tincidunt lorem.
+                            Aenean non sollicitudin mi, ac mollis mi. Suspendisse vehicula ligula eu consequat
+                            aliquet. Curabitur ultricies semper scelerisque.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="socialNetworks">
+                        <a href="https://www.linkedin.com/in/ameer-pestana-284222114/">
+                        <img src="icons8-linkedin-120.png"></a>
+                        <a href="https://github.com/Ameer28/">
+                        <img src="icons8-github-120.png"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
     </section>
+
+    <!-----------------------------------------------Footer-------------------------------------------------------->
+    <footer class="copyrightFoot">
+        <p>Copyright &#169 2020 Ameer Pestana</p>
+    </footer>
 
     <!----------------------------------------------My JS & Jquery------------------------------------------------->
     <script type="text/javascript" src="main.js"></script>

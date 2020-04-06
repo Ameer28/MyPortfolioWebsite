@@ -34,4 +34,3 @@ emailField.addEventListener('keyup', function (event) {
 submitButton.addEventListener('click', function (event) {
   writeToMeForm.submit();
 });
-

@@ -155,13 +155,14 @@ $msg = 'Please use a valid email';
             <div class="row">
 
                 <div class="col-lg-4 mb-3 mb-lg-0">
-                    <div class="hover hover-2 text-white rounded"><img src="meanStackLogos.jpeg">
+                    <div class="hover hover-2 text-white rounded"><img src="Pokedex.jpg">
                         <div class="hover-overlay"></div>
                         <div class="hover-2-content px-5 py-4">
                             <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
-                                    class="font-weight-light"> Mean Stack </span>App</h3>
-                            <p class="hover-2-description text-uppercase mb-0">Short description of app
-                                <br>More details</p>
+                                    class="font-weight-light"> Pokedex </span>App</h3>
+                            <p class="hover-2-description text-uppercase mb-0">Autocomplete search bar to query
+                                <br>names of Pokemon using the Pokemon API.
+                                <br><a href src="">Github Repository</a></p>
                         </div>
                     </div>
                 </div>
@@ -201,7 +202,7 @@ $msg = 'Please use a valid email';
             <div class="row">
 
                 <div class="col-lg-6 myProfilePic">
-                    <img src="myProfilePic2.jpg">
+                    <img src="myProfilePic3.jpg">
                 </div>
 
                 <div class="col-lg-6">
@@ -217,10 +218,12 @@ $msg = 'Please use a valid email';
             <div class="row">
                 <div class="col-lg-12">
                     <div class="socialNetworks">
+                        <span class="socialNetworkHover">
                         <a href="https://www.linkedin.com/in/ameer-pestana-284222114/">
                         <img src="icons8-linkedin-120.png"></a>
                         <a href="https://github.com/Ameer28/">
                         <img src="icons8-github-120.png"></a>
+                        </span>
                     </div>
                 </div>
             </div>

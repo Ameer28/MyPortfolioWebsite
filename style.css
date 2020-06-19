@@ -227,6 +227,9 @@ body {
     margin: 3rem;
 }
 
+.socialNetworksHover:hover {
+    color: #fff;
+}
 /*****************Footer*********************************/
 .copyrightFoot {
     text-align: center;

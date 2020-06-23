@@ -6,7 +6,6 @@ body {
     overflow-x: hidden;
 }
 
-
 .container-fluid {
     background-color: black;
     font-size: 18px;
@@ -15,6 +14,11 @@ body {
 }
 
 /*******************Navbar*************************/
+
+.navbar {
+    z-index: 9999;
+}
+
 .nav-link {
     background-color: #000;
     color: #40E0D0;
@@ -207,7 +211,7 @@ body {
 
 .myProfilePic img {
     border-radius: 50%;
-    height: 14rem;
+    height: 12rem;
     margin-bottom: 4rem;
     box-shadow: 3px 5px;
 }

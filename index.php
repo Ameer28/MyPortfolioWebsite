@@ -9,7 +9,7 @@ if (filter_has_var(INPUT_POST, 'submit')){
 $name = htmlspecialchars($_POST['name']);
 $email = htmlspecialchars($_POST['email']);
 $message = htmlspecialchars($_POST['message']);
-
+                            
 //Check required fields
 if(!empty($name) && !empty($email) && !empty($message)){
     //Passed
@@ -89,7 +89,7 @@ $msg = 'Please use a valid email';
                         <a class="nav-link" href="#myProjects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#contact">About</a>
                     </li>
                 </ul>
             </div>
@@ -102,9 +102,7 @@ $msg = 'Please use a valid email';
         <div>
             <h1>DEVELOPMENT THE WAY</h1>
             <h1>YOU WANT.</h1>
-            <h3>I'M A DEVELOPER FROM SINGAPORE.</h3>
             <h3>I CREATE WEB APPLICATIONS.</h3>
-            <h3>I'M BLOCKCHAIN READY.</h3>
             <!------------------------------------------Write To Me Button------------------------------------------------>
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#writeToMeModal"
                 data-whatever="Ameer">Write To Me</button>
@@ -200,10 +198,6 @@ $msg = 'Please use a valid email';
         <h1>About Me</h1>
         <div class="container">
             <div class="row">
-
-                <div class="col-lg-6 myProfilePic">
-                    <img src="myProfilePic3.jpg">
-                </div>
 
                 <div class="col-lg-6">
                     <div class="myProfileDescription">

@@ -11,13 +11,11 @@ body {
     font-size: 18px;
     margin-right: auto;
     color: #40E0D0;
+    position: fixed;
+    z-index: 9999;
 }
 
 /*******************Navbar*************************/
-
-.navbar {
-    z-index: 9999;
-}
 
 .nav-link {
     background-color: #000;
@@ -100,6 +98,10 @@ body {
 /*****************Modal Form***********************/
 .form-group {
     text-align: left;
+}
+
+.modal-header {
+    padding: 2rem 0 0 1rem !important;
 }
 
 /******************My Projects*********************/

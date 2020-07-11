@@ -71,9 +71,9 @@ $msg = 'Please use a valid email';
 <body>
     <div class="container-fluid">
 
-        <!------------------------------------------My Logo & Nav Bar------------------------------------------------------->
+<!-----------------My Logo & Nav Bar----------------->
         <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand">
+            <a class="navbar-brand" href="#home">
                 <img src="My Logo Version 1.png" width="210" height="" class="d-inline-block align-top" alt="">
             </a>
             <button class="navbar-toggler hamburger-nav" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -82,9 +82,6 @@ $msg = 'Please use a valid email';
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#myProjects">Projects</a>
                     </li>
@@ -98,7 +95,7 @@ $msg = 'Please use a valid email';
     </div>
 
     <!---------------------------------------Hero Image--------------------------------------------------------->
-    <section class="hero">
+    <section class="hero" id="home">
         <div>
             <h1>DEVELOPMENT THE WAY</h1>
             <h1>YOU WANT.</h1>
@@ -146,43 +143,43 @@ $msg = 'Please use a valid email';
             </div>
         </div>
     </section>
-    <!---------------------------------------------My Projects---------------------------------------------------->
+    <!------------------------------------My Projects--------------------------------->
     <section class="bg-dark gradientDark" id="myProjects">
         <h1>My Projects</h1>
         <div class="py-5">
             <div class="row">
 
                 <div class="col-lg-4 mb-3 mb-lg-0">
-                    <div class="hover hover-2 text-white rounded"><img src="Pokedex.jpg">
+                    <div class="hover hover-2 text-white rounded"><img src="PwCAcademy.png">
                         <div class="hover-overlay"></div>
                         <div class="hover-2-content px-5 py-4">
                             <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
-                                    class="font-weight-light"> Pokedex </span>App</h3>
-                            <p class="hover-2-description text-uppercase mb-0">Autocomplete search bar to query
-                                <br>names of Pokemon using the Pokemon API.
-                                <br><a href src="">Github Repository</a></p>
+                                    class="font-weight-light"> PWC Academy </span>Learning Management System</h3>
+                            <p class="hover-2-description text-uppercase mb-0">Develop the front-end
+                                <br> of the PwC Academy LMS
+                                <br><a href="https://github.com/Ameer28/PwCSGAcademyLMS.git" target="_blank">Github Repository</a></p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 mb-3 mb-lg-0">
-                    <div class="hover hover-2 text-white rounded"><img src="javaLogo.jpeg">
+                    <div class="hover hover-2 text-white rounded"><img src="TECHLearningCentreScreenshot.png">
                         <div class="hover-overlay"></div>
                         <div class="hover-2-content px-5 py-4">
                             <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
-                                    class="font-weight-light">Java </span>App</h3>
-                            <p class="hover-2-description text-uppercase mb-0">Short description of app
-                                <br>more details</p>
+                                    class="font-weight-light">TECH Learning Centre </span>Website</h3>
+                            <p class="hover-2-description text-uppercase mb-0">Website for a client using <br> HTML, CSS & JQuery
+                                <br><a href="https://github.com/Ameer28/TECHLearningCentre.git" target="_blank">Github Repository</a></p>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 mb-3 mb-lg-0">
-                    <div class="hover hover-2 text-white rounded"><img src="blockchain.jpg">
+                    <div class="hover hover-2 text-white rounded"><img src="">
                         <div class="hover-overlay"></div>
                         <div class="hover-2-content px-5 py-4">
                             <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
-                                    class="font-weight-light">Blockchain </span>App</h3>
+                                    class="font-weight-light">Lips & Lashes <br></span>Landing Page</h3>
                             <p class="hover-2-description text-uppercase mb-0">Short description of app
                                 <br>more details</p>
                         </div>
@@ -191,9 +188,51 @@ $msg = 'Please use a valid email';
 
             </div>
         </div>
+
+        <div class="py-5">
+            <div class="row">
+
+                <div class="col-lg-4 mb-3 mb-lg-0">
+                    <div class="hover hover-2 text-white rounded"><img src="Ameer's PokeDex1.png">
+                        <div class="hover-overlay"></div>
+                        <div class="hover-2-content px-5 py-4">
+                            <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
+                                    class="font-weight-light"> Pokedex </span> Web App</h3>
+                            <p class="hover-2-description text-uppercase mb-0">Autocomplete search bar to query
+                                <br>names of Pokemon using the Pokemon API.
+                                <br><a href="https://github.com/Ameer28/AmeerPokedex.git" target="_blank">Github Repository</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-0">
+                    <div class="hover hover-2 text-white rounded"><img src="">
+                        <div class="hover-overlay"></div>
+                        <div class="hover-2-content px-5 py-4">
+                            <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
+                                    class="font-weight-light">Currency Converter <br> </span>Web App</h3>
+                            <p class="hover-2-description text-uppercase mb-0">Website for a client using <br> HTML, CSS & JQuery
+                                <br><a href="https://github.com/Ameer28/TECHLearningCentre.git" target="_blank">Github Repository</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-3 mb-lg-0">
+                    <div class="hover hover-2 text-white rounded"><img src="">
+                        <div class="hover-overlay"></div>
+                        <div class="hover-2-content px-5 py-4">
+                            <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
+                                    class="font-weight-light">E-Viet Android App <br>
+                                </span> Website</h3>
+                            <p class="hover-2-description text-uppercase mb-0">Website for a client using <br> HTML, CSS & JQuery
+                                <br><a href="https://github.com/Ameer28/TECHLearningCentre.git" target="_blank">Github Repository</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
 
-    <!-------------------------------------------About Me-------------------------------------------------------->
+    <!---------------------------------About Me-------------------------------------->
     <section class="aboutMe" id="contact">
         <h1>About Me</h1>
         <div class="container">

@@ -20,7 +20,7 @@ $msg = 'Please use a valid email';
     $msgClass = 'alert-danger';
     } else {
         //Passed
-        $to_email = 'elearningviet88@gmail.com';
+        $to_email = 'ameer.pestana@theeviet.com';
         $subject = 'Contact Request From ' .$name;
         $body = '<h2>Contact Request </h2>
         <h4>Name</h4><p>' .$name.'</p>
@@ -62,7 +62,7 @@ $msg = 'Please use a valid email';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Ameer Pestana</title>
     <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
-    <!----------------------------------------------Bootstrap CSS---------------------------------------------->
+    <!--------------------------------Bootstrap CSS--------------------------------->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
@@ -94,16 +94,16 @@ $msg = 'Please use a valid email';
         </nav>
     </div>
 
-    <!---------------------------------------Hero Image--------------------------------------------------------->
+    <!---------------------------------Hero Image------------------------------------>
     <section class="hero" id="home">
         <div>
             <h1>DEVELOPMENT THE WAY</h1>
             <h1>YOU WANT.</h1>
             <h3>I CREATE WEB APPLICATIONS.</h3>
-            <!------------------------------------------Write To Me Button------------------------------------------------>
+            <!------------------------Write To Me Button----------------------------->
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#writeToMeModal"
                 data-whatever="Ameer">Write To Me</button>
-            <!------------------------------------------Write To Me Modal Form-------------------------------------------->
+            <!-----------------------Write To Me Modal Form------------------------>
             <div class="modal fade" id="writeToMeModal" tabindex="-1" role="dialog"
                 aria-labelledby="writeToMeModalLabel" aria-hidden="true" data-backdrop="static">
                 <div class="modal-dialog" role="document">
@@ -264,15 +264,15 @@ $msg = 'Please use a valid email';
         
     </section>
 
-    <!-----------------------------------------------Footer-------------------------------------------------------->
+    <!-----------------------------------Footer-------------------------------------->
     <footer class="copyrightFoot">
         <p>Copyright &#169 2020 Ameer Pestana</p>
     </footer>
 
-    <!----------------------------------------------My JS & Jquery------------------------------------------------->
+    <!-----------------------------My JS & Jquery----------------------------------->
     <script type="text/javascript" src="main.js"></script>
 
-    <!----------------------------------------------Bootstrap JS-------------------------------------------------->
+    <!---------------------------------Bootstrap JS---------------------------------->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>

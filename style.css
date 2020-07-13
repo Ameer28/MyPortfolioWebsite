@@ -49,6 +49,23 @@ body {
     margin-bottom: 5px;
 }
 
+.nav-item {
+    background: black !important;
+}
+
+.navbarButton {
+    background-color: #40E0D0 !important;
+    color: black !important;
+}
+
+.navbarButton:hover {
+    background-color: #4db6ac !important;
+    color: white !important;
+}
+
+.d-inline-block:hover {
+    filter: grayscale(100%);
+}
 
 /******************Hero Image*********************/
 .hero {

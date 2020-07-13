@@ -72,7 +72,7 @@ $msg = 'Please use a valid email';
     <div class="container-fluid">
 
 <!-----------------My Logo & Nav Bar----------------->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg justify-content-end">
             <a class="navbar-brand" href="#home">
                 <img src="My Logo Version 1.png" width="210" height="" class="d-inline-block align-top" alt="">
             </a>
@@ -80,8 +80,13 @@ $msg = 'Please use a valid email';
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-hamburger"><img src="bars-solid.svg"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
+                <li class="nav-item">
+                <button type="button" class="btn btn-primary navbarButton" data-toggle="modal" data-target="#writeToMeModal"
+                data-whatever="Ameer">Write To Me</button>
+                </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#myProjects">Projects</a>
                     </li>

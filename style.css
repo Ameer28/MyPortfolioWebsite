@@ -38,7 +38,7 @@ body {
     background-color: #40E0D0;
     border: 1px solid transparent;
     border-radius: .25rem;
-    border-color: #40E0D0 !important;
+    /* border-color: #40E0D0 !important; */
 }
 
 .navbar-toggler-icon {
@@ -56,6 +56,7 @@ body {
 .navbarButton {
     background-color: #40E0D0 !important;
     color: black !important;
+    margin-right: 10px;
 }
 
 .navbarButton:hover {
@@ -118,7 +119,11 @@ body {
 }
 
 .modal-header {
-    padding: 2rem 0 0 1rem !important;
+    padding: 2rem 1rem 0 1rem !important;
+}
+
+.close span {
+    margin: -1rem 0 -1rem auto;
 }
 
 /******************My Projects*********************/
@@ -243,15 +248,18 @@ body {
 .socialNetworks {
     text-align: center;
     padding: 3rem;
+    
 }
 
 .socialNetworks img{
     background-color: #40E0D0;
     margin: 3rem;
+    box-shadow: 5px 10px 10px #131313;
 }
 
 .socialNetworks img:hover {
     filter: grayscale(1) invert(1);
+    box-shadow:  none;
 }
 /*****************Footer*********************************/
 .copyrightFoot {
@@ -267,11 +275,20 @@ body {
 /*********************Media Queires***********************/
 
 @media screen and (max-width: 580px) {
+    
     img.d-inline-block {
         width: 50%;
         height: 50%;
+        margin: auto;
     }
 
-    
+    nav.navbar {
+        margin: 0;
+        display: flex;
+    }
+
+    .fa-navicon {
+    color: #40E0D0;
+    }
 
 }

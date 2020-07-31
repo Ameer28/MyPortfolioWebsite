@@ -65,28 +65,26 @@ $msg = 'Please use a valid email';
     <!--------------------------------Bootstrap CSS--------------------------------->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <div class="container-fluid">
 
-<!-----------------My Logo & Nav Bar----------------->
+        <!-----------------My Logo & Nav Bar----------------->
         <nav class="navbar navbar-expand-lg justify-content-end">
             <a class="navbar-brand" href="#home">
                 <img src="My Logo Version 1.png" width="210" height="" class="d-inline-block align-top" alt="">
             </a>
-            <button class="navbar-toggler hamburger-nav" type="button" data-toggle="collapse" data-target="#navbarNav"
+            <button class="navbar-toggler fa fa-navicon" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-hamburger"><img src="bars-solid.svg"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                <li class="nav-item">
-                <button type="button" class="btn btn-primary navbarButton" data-toggle="modal" data-target="#writeToMeModal"
-                data-whatever="Ameer">Write To Me</button>
-                </li>
-
+                    <li class="nav-item">
+                        <button type="button" class="btn btn-primary navbarButton" data-toggle="modal"
+                            data-target="#writeToMeModal" data-whatever="Ameer">Write To Me</button>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#myProjects">Projects</a>
                     </li>
@@ -98,6 +96,30 @@ $msg = 'Please use a valid email';
         </nav>
         </nav>
     </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <!---------------------------------Hero Image------------------------------------>
     <section class="hero" id="home">
@@ -162,7 +184,8 @@ $msg = 'Please use a valid email';
                                     class="font-weight-light"> PWC Academy </span>Learning Management System</h3>
                             <p class="hover-2-description text-uppercase mb-0">Develop the front-end
                                 <br> of the PwC Academy LMS
-                                <br><a href="https://github.com/Ameer28/PwCSGAcademyLMS.git" target="_blank">Github Repository</a></p>
+                                <br><a href="https://github.com/Ameer28/PwCSGAcademyLMS.git" target="_blank">Github
+                                    Repository</a></p>
                         </div>
                     </div>
                 </div>
@@ -173,8 +196,10 @@ $msg = 'Please use a valid email';
                         <div class="hover-2-content px-5 py-4">
                             <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
                                     class="font-weight-light">TECH Learning Centre </span>Website</h3>
-                            <p class="hover-2-description text-uppercase mb-0">Website for a client using <br> HTML, CSS & JQuery
-                                <br><a href="https://github.com/Ameer28/TECHLearningCentre.git" target="_blank">Github Repository</a></p>
+                            <p class="hover-2-description text-uppercase mb-0">Website for a client using <br> HTML, CSS
+                                & JQuery
+                                <br><a href="https://github.com/Ameer28/TECHLearningCentre.git" target="_blank">Github
+                                    Repository</a></p>
                         </div>
                     </div>
                 </div>
@@ -205,7 +230,8 @@ $msg = 'Please use a valid email';
                                     class="font-weight-light"> Pokedex </span> Web App</h3>
                             <p class="hover-2-description text-uppercase mb-0">Autocomplete search bar to query
                                 <br>names of Pokemon using the Pokemon API.
-                                <br><a href="https://github.com/Ameer28/AmeerPokedex.git" target="_blank">Github Repository</a></p>
+                                <br><a href="https://github.com/Ameer28/AmeerPokedex.git" target="_blank">Github
+                                    Repository</a></p>
                         </div>
                     </div>
                 </div>
@@ -216,8 +242,10 @@ $msg = 'Please use a valid email';
                         <div class="hover-2-content px-5 py-4">
                             <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
                                     class="font-weight-light">Currency Converter <br> </span>Web App</h3>
-                            <p class="hover-2-description text-uppercase mb-0">Website for a client using <br> HTML, CSS & JQuery
-                                <br><a href="https://github.com/Ameer28/TECHLearningCentre.git" target="_blank">Github Repository</a></p>
+                            <p class="hover-2-description text-uppercase mb-0">Website for a client using <br> HTML, CSS
+                                & JQuery
+                                <br><a href="https://github.com/Ameer28/TECHLearningCentre.git" target="_blank">Github
+                                    Repository</a></p>
                         </div>
                     </div>
                 </div>
@@ -229,8 +257,10 @@ $msg = 'Please use a valid email';
                             <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
                                     class="font-weight-light">E-Viet Android App <br>
                                 </span> Website</h3>
-                            <p class="hover-2-description text-uppercase mb-0">Website for a client using <br> HTML, CSS & JQuery
-                                <br><a href="https://github.com/Ameer28/TECHLearningCentre.git" target="_blank">Github Repository</a></p>
+                            <p class="hover-2-description text-uppercase mb-0">Website for a client using <br> HTML, CSS
+                                & JQuery
+                                <br><a href="https://github.com/Ameer28/TECHLearningCentre.git" target="_blank">Github
+                                    Repository</a></p>
                         </div>
                     </div>
                 </div>
@@ -257,16 +287,16 @@ $msg = 'Please use a valid email';
                 <div class="col-lg-12">
                     <div class="socialNetworks">
                         <span class="socialNetworkHover">
-                        <a href="https://www.linkedin.com/in/ameer-pestana-284222114/">
-                        <img src="icons8-linkedin-120.png"></a>
-                        <a href="https://github.com/Ameer28/">
-                        <img src="icons8-github-120.png"></a>
+                            <a href="https://www.linkedin.com/in/ameer-pestana-284222114/">
+                                <img src="icons8-linkedin-120.png"></a>
+                            <a href="https://github.com/Ameer28/">
+                                <img src="icons8-github-120.png"></a>
                         </span>
                     </div>
                 </div>
             </div>
         </div>
-        
+
     </section>
 
     <!-----------------------------------Footer-------------------------------------->

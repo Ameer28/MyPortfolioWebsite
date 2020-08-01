@@ -2,17 +2,16 @@ html {
     scroll-behavior: smooth;
 }
 
-body {
-    overflow-x: hidden;
-}
-
 .container-fluid {
     background-color: black;
     font-size: 18px;
     margin-right: auto;
     color: #40E0D0;
-    position: fixed;
     z-index: 9999;
+}
+
+div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    padding: 0;
 }
 
 /*******************Navbar*************************/
@@ -38,7 +37,6 @@ body {
     background-color: #40E0D0;
     border: 1px solid transparent;
     border-radius: .25rem;
-    /* border-color: #40E0D0 !important; */
 }
 
 .navbar-toggler-icon {
@@ -287,8 +285,43 @@ body {
         display: flex;
     }
 
+    button.navbarButton {
+        display: none;
+    }
+
     .fa-navicon {
     color: #40E0D0;
     }
 
+    .hero {
+        height: 50vh;
+    }
+
+    .hero div h1 {
+        font-size: 24px;
+    }
+
+    .hero div h3 {
+        font-size: 24px;
+    }
+
+    button.btn.btn-primary {
+        width: 10rem;
+        height: 4rem;
+        font-size: 20px;
+    }
+
+    #myProjects h1 {
+        font-size: 24px;
+        padding-top: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    div.py-5 {
+        padding: 0;
+    }
+
+    .hover-overlay {
+
+    }
 }

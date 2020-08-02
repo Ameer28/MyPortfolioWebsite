@@ -93,7 +93,7 @@ $msg = 'Please use a valid email';
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav>                  
 
         <!------------------------------Hero Image------------------------------------>
         <section class="hero" id="home">
@@ -181,11 +181,11 @@ $msg = 'Please use a valid email';
                     </div>
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover hover-2 text-white rounded"><img src="">
+                        <div class="hover hover-2 text-white rounded"><img src="images/e-viet.png">
                             <div class="hover-overlay"></div>
                             <div class="hover-2-content px-5 py-4">
                                 <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
-                                        class="font-weight-light">Lips & Lashes <br></span>Landing Page</h3>
+                                        class="font-weight-light">E-Viet Android App <br></span>Landing Page</h3>
                                 <p class="hover-2-description text-uppercase mb-0">Short description of app
                                     <br>more details</p>
                             </div>
@@ -211,30 +211,13 @@ $msg = 'Please use a valid email';
                             </div>
                         </div>
                     </div>
-
+                    
                     <div class="col-lg-4 mb-3 mb-lg-0">
                         <div class="hover hover-2 text-white rounded"><img src="">
                             <div class="hover-overlay"></div>
                             <div class="hover-2-content px-5 py-4">
                                 <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
                                         class="font-weight-light">Currency Converter <br> </span>Web App</h3>
-                                <p class="hover-2-description text-uppercase mb-0">Website for a client using <br> HTML,
-                                    CSS
-                                    & JQuery
-                                    <br><a href="https://github.com/Ameer28/TECHLearningCentre.git"
-                                        target="_blank">Github
-                                        Repository</a></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover hover-2 text-white rounded"><img src="">
-                            <div class="hover-overlay"></div>
-                            <div class="hover-2-content px-5 py-4">
-                                <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
-                                        class="font-weight-light">E-Viet Android App <br>
-                                    </span> Website</h3>
                                 <p class="hover-2-description text-uppercase mb-0">Website for a client using <br> HTML,
                                     CSS
                                     & JQuery

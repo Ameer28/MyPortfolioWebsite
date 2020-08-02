@@ -318,10 +318,17 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
     }
 
     div.py-5 {
-        padding: 0;
+        padding: 1.5rem !important;
     }
 
-    .hover-overlay {
+    .font-weight-light {
+        font-size: 34px;
+        color: white;
+    }
 
+    .hover-2-title {
+        font-size: 24px;
+        color: white;
+        display: block;
     }
 }

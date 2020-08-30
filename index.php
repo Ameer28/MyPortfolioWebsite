@@ -66,6 +66,8 @@ $msg = 'Please use a valid email';
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -151,7 +153,7 @@ $msg = 'Please use a valid email';
                 <div class="row">
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover hover-2 text-white rounded"><img src="PwCAcademy.png">
+                        <div class="hover hover-2 text-white rounded"><img src="images/PwCAcademy.png">
                             <div class="hover-overlay"></div>
                             <div class="hover-2-content px-5 py-4">
                                 <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
@@ -165,7 +167,7 @@ $msg = 'Please use a valid email';
                     </div>
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover hover-2 text-white rounded"><img src="TECHLearningCentreScreenshot.png">
+                        <div class="hover hover-2 text-white rounded"><img src="images/TECHLearningCentreScreenshot.png">
                             <div class="hover-overlay"></div>
                             <div class="hover-2-content px-5 py-4">
                                 <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
@@ -199,7 +201,7 @@ $msg = 'Please use a valid email';
                 <div class="row">
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover hover-2 text-white rounded"><img src="Ameer's PokeDex1.png">
+                        <div class="hover hover-2 text-white rounded"><img src="images/Ameer's PokeDex1.png">
                             <div class="hover-overlay"></div>
                             <div class="hover-2-content px-5 py-4">
                                 <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
@@ -251,9 +253,9 @@ $msg = 'Please use a valid email';
                         <div class="socialNetworks">
                             <span class="socialNetworkHover">
                                 <a href="https://www.linkedin.com/in/ameer-pestana-284222114/">
-                                    <img src="icons8-linkedin-120.png"></a>
+                                    <img src="images/icons8-linkedin-120.png"></a>
                                 <a href="https://github.com/Ameer28/">
-                                    <img src="icons8-github-120.png"></a>
+                                    <img src="images/icons8-github-120.png"></a>
                             </span>
                         </div>
                     </div>

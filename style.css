@@ -2,12 +2,16 @@ html {
     scroll-behavior: smooth;
 }
 
-.container-fluid {
+body {
+    font-family: 'Fjalla One', sans-serif !important;
+}
+
+div.container-fluid {
     background-color: black;
     font-size: 18px;
     margin-right: auto;
-    color: #40E0D0;
-    z-index: 9999;
+    color: #00A1AB;
+    z-index: 9999;    
 }
 
 div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
@@ -18,7 +22,7 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
 
 .nav-link {
     background-color: #000;
-    color: #40E0D0;
+    color: #00A1AB;
 }
 
 .nav-link:hover {
@@ -27,14 +31,14 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
 
 .navbar-nav {
     text-align: right;
-    background-color: #40E0D0;
+    background-color: #00A1AB;
 }
 
 .navbar-toggler {
     padding: .25rem .75rem;
     font-size: 1.25rem;
     line-height: 1;
-    background-color: #40E0D0;
+    background-color: #00A1AB;
     border: 1px solid transparent;
     border-radius: .25rem;
 }
@@ -52,13 +56,13 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
 }
 
 .navbarButton {
-    background-color: #40E0D0 !important;
+    background-color: #00A1AB !important;
     color: black !important;
     margin-right: 10px;
 }
 
 .navbarButton:hover {
-    background-color: #4db6ac !important;
+    background-color: #00A1AB !important;
     color: white !important;
 }
 
@@ -74,21 +78,22 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("illuminated-cityscape-against-blue-sky-at-night-316093.jpg");
+    background-image: url("images/illuminated-cityscape-against-blue-sky-at-night-316093.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+    /* filter: grayscale(100%); */
 }
 
 .hero h1 {
     font-size: 5vw;
     margin-top: 0;
     margin-bottom: 0.5rem;
-    color: #40E0D0;
+    color: #00A1AB;
 }
 
 .hero h3 {
-    color: #40E0D0;
+    color: #00A1AB;
     font-size: 2.5vw;
 }
 
@@ -212,7 +217,7 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
 
 /*****************About Me*************************/
 .aboutMe {
-    background-image: linear-gradient(rgba(19, 19, 19, 1), rgba(0, 0, 0, 0.5)), url("MBSdayCropped.jpg");
+    background-image: linear-gradient(rgba(19, 19, 19, 1), rgba(0, 0, 0, 0.5)), url("images/MBSdayCropped.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -330,5 +335,32 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
         font-size: 24px;
         color: white;
         display: block;
+    }
+
+    .aboutMe {
+        padding: 2rem;
+    }
+
+    .aboutMe h1 {
+        margin-bottom: 0;
+        font-size: 24px;
+    }
+
+    .aboutMe p {
+        font-size: 16px;
+    }
+
+    .socialNetworks {
+        padding: 0;
+    }
+
+    .socialNetworks a {
+        display: flex;
+    }
+    
+    .socialNetworks img {
+        width: 60px;
+        height: 60px;
+        margin-left: 1rem;
     }
 }

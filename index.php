@@ -83,19 +83,59 @@ $msg = 'Please use a valid email';
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item active">
-                        <button type="button" class="btn btn-primary navbarButton" data-toggle="modal"
-                            data-target="#writeToMeModal" data-whatever="Ameer">Write To Me</button>
-                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#myProjects">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">About</a>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item active">
+                        <button type="button" class="btn btn-primary navbarButton" data-toggle="modal"
+                            data-target="#writeToMeModal" data-whatever="Ameer">Write To Me</button>
+                        <div class="modal fade" id="writeToMeModal" tabindex="-1" role="dialog"
+                            aria-labelledby="writeToMeModalLabel" aria-hidden="true" data-backdrop="static">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="titleModal">Leave Me Your Contact Details</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <?php if ($msg): ?>
+                                        <div class="alert <?php echo $msgClass; ?>"><?php echo $msg; ?></div>
+                                        <?php endif; ?>
+                                        <form id="writeToMeForm" method="post"
+                                            action="<?php echo $_SERVER['PHP_SELF']; ?>">
+                                            <div class="form-group">
+                                                <label>Name</label>
+                                                <input id="nameField" type="text" class="form-control" required
+                                                    value="<?php echo isset($_POST['name']) ? $name : ''; ?>">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Email</label>
+                                                <input id="emailField" type="email" class="form-control" required
+                                                    value="<?php echo isset($_POST['email']) ? $email : ''; ?>">
+                                            </div>
+                                            <div class="form-group">
+                                                <label>Message</label>
+                                                <textarea
+                                                    class="form-control"><?php echo isset($_POST['message']) ? $message : ''; ?></textarea>
+                                            </div>
+                                            <br>
+                                            <button id="submitButton" type="submit"
+                                                class="btn btn-primary">Submit</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                 </ul>
             </div>
-        </nav>                  
+        </nav>
 
         <!------------------------------Hero Image------------------------------------>
         <section class="hero" id="home">
@@ -103,47 +143,8 @@ $msg = 'Please use a valid email';
                 <h1>DEVELOPMENT THE WAY</h1>
                 <h1>YOU WANT.</h1>
                 <h3>I CREATE WEB APPLICATIONS.</h3>
-                <!------------------------Write To Me Button-------------------------->
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#writeToMeModal"
-                    data-whatever="Ameer">Write To Me</button>
-                <!-----------------------Write To Me Modal Form---------------------->
-                <div class="modal fade" id="writeToMeModal" tabindex="-1" role="dialog"
-                    aria-labelledby="writeToMeModalLabel" aria-hidden="true" data-backdrop="static">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="titleModal">Leave Me Your Contact Details</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <?php if ($msg): ?>
-                                <div class="alert <?php echo $msgClass; ?>"><?php echo $msg; ?></div>
-                                <?php endif; ?>
-                                <form id="writeToMeForm" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
-                                    <div class="form-group">
-                                        <label>Name</label>
-                                        <input id="nameField" type="text" class="form-control" required
-                                            value="<?php echo isset($_POST['name']) ? $name : ''; ?>">
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Email</label>
-                                        <input id="emailField" type="email" class="form-control" required
-                                            value="<?php echo isset($_POST['email']) ? $email : ''; ?>">
-                                    </div>
-                                    <div class="form-group">
-                                        <label>Message</label>
-                                        <textarea
-                                            class="form-control"><?php echo isset($_POST['message']) ? $message : ''; ?></textarea>
-                                    </div>
-                                    <br>
-                                    <button id="submitButton" type="submit" class="btn btn-primary">Submit</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <!------------------------My Projects Button-------------------------->
+                    <button type="button" class="btn btn-primary"><a href="#myProjects">My Projects</a></button>
             </div>
         </section>
         <!----------------------------------My Projects------------------------------->
@@ -167,7 +168,8 @@ $msg = 'Please use a valid email';
                     </div>
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover hover-2 text-white rounded"><img src="images/TECHLearningCentreScreenshot.png">
+                        <div class="hover hover-2 text-white rounded"><img
+                                src="images/TECHLearningCentreScreenshot.png">
                             <div class="hover-overlay"></div>
                             <div class="hover-2-content px-5 py-4">
                                 <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
@@ -213,7 +215,7 @@ $msg = 'Please use a valid email';
                             </div>
                         </div>
                     </div>
-                    
+
                     <div class="col-lg-4 mb-3 mb-lg-0">
                         <div class="hover hover-2 text-white rounded"><img src="">
                             <div class="hover-overlay"></div>

@@ -78,11 +78,10 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url("images/illuminated-cityscape-against-blue-sky-at-night-316093.jpg");
+    background-image: url("images/illuminated-blackandwhite.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
-    /* filter: grayscale(100%); */
 }
 
 .hero h1 {
@@ -108,12 +107,21 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
     text-decoration: none;
     font-size: 1.5em;
     border: #000000;
-    background-color: #40E0D0;
+    background-color: #100E0E;
 }
 
 .hero .btn:hover {
     color: #ffffff;
-    background-color: #4db6ac !important;
+    background: #000;
+}
+
+.btn-primary a {
+    color: #00A1AB;
+}
+
+.btn-primary a:hover {
+    text-decoration: none;
+    color: #00A1AB;
 }
 
 /*****************Modal Form***********************/
@@ -136,7 +144,7 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
 
 .gradientDark h1 {
     text-align: center;
-    color: #40E0D0;
+    color: #00A1AB;
     padding-top: 2rem;
 }
 
@@ -229,7 +237,7 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
     text-align: center;
     padding-bottom: 2rem;
     margin-bottom: 5rem;
-    color: #40E0D0;
+    color: #00A1AB;
 }
 
 .myProfilePic {
@@ -245,7 +253,7 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
 
 .myProfileDescription p {
     font-size: 22px;
-    color: #40E0D0;
+    color: #00A1AB;
 }
 
 .socialNetworks {
@@ -255,7 +263,7 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
 }
 
 .socialNetworks img{
-    background-color: #40E0D0;
+    background-color: #00A1AB;
     margin: 3rem;
     box-shadow: 5px 10px 10px #131313;
 }
@@ -271,7 +279,7 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
     margin: 0rem;
 }
 .copyrightFoot p {
-    color: #40E0D0;
+    color: #00A1AB;
     margin: 0rem;
 }
 
@@ -295,7 +303,7 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
     }
 
     .fa-navicon {
-    color: #40E0D0;
+    color: #00A1AB;
     }
 
     .hero {

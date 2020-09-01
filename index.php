@@ -62,7 +62,7 @@ $msg = 'Please use a valid email';
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Ameer Pestana</title>
     <link rel="stylesheet" href="style.css?v=<?php echo time(); ?>">
-    <!--------------------------------Bootstrap CSS--------------------------------->
+    <!----------------------------Bootstrap CSS------------------------------>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -137,104 +137,95 @@ $msg = 'Please use a valid email';
             </div>
         </nav>
 
-        <!------------------------------Hero Image------------------------------------>
+        <!-----------------------Hero Image------------------------------->
         <section class="hero" id="home">
             <div>
                 <h1>DEVELOPMENT THE WAY</h1>
                 <h1>YOU WANT.</h1>
                 <h3>I CREATE WEB APPLICATIONS.</h3>
-                <!------------------------My Projects Button-------------------------->
-                    <button type="button" class="btn btn-primary"><a href="#myProjects">My Projects</a></button>
+                <!-----------------My Projects Button----------------------->
+                <button type="button" class="btn btn-primary"><a href="#myProjects">My Projects</a></button>
             </div>
         </section>
-        <!----------------------------------My Projects------------------------------->
+        <!----------------------------My Projects--------------------------->
         <section class="bg-dark gradientDark" id="myProjects">
             <h1>My Projects</h1>
             <div class="py-5">
                 <div class="row">
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover hover-2 text-white rounded"><img src="images/PwCAcademy.png">
-                            <div class="hover-overlay"></div>
-                            <div class="hover-2-content px-5 py-4">
-                                <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
-                                        class="font-weight-light"> PWC Academy </span>Learning Management System</h3>
-                                <p class="hover-2-description text-uppercase mb-0">Develop the front-end
-                                    <br> of the PwC Academy LMS
-                                    <br><a href="https://github.com/Ameer28/PwCSGAcademyLMS.git" target="_blank">Github
-                                        Repository</a></p>
+                        <div class="hover-2-content px-5 py-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/PwCAcademy.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover hover-2 text-white rounded"><img
-                                src="images/TECHLearningCentreScreenshot.png">
-                            <div class="hover-overlay"></div>
-                            <div class="hover-2-content px-5 py-4">
-                                <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
-                                        class="font-weight-light">TECH Learning Centre </span>Website</h3>
-                                <p class="hover-2-description text-uppercase mb-0">Website for a client using <br> HTML,
-                                    CSS
-                                    & JQuery
-                                    <br><a href="https://github.com/Ameer28/TECHLearningCentre.git"
-                                        target="_blank">Github
-                                        Repository</a></p>
+                        <div class="hover-2-content px-5 py-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/TECHLearningCentreScreenshot.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make up
+                                        the
+                                        bulk of the card's content.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover hover-2 text-white rounded"><img src="images/e-viet.png">
-                            <div class="hover-overlay"></div>
-                            <div class="hover-2-content px-5 py-4">
-                                <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
-                                        class="font-weight-light">E-Viet Android App <br></span>Landing Page</h3>
-                                <p class="hover-2-description text-uppercase mb-0">Short description of app
-                                    <br>more details</p>
+                        <div class="hover-2-content px-5 py-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="images/e-viet.png" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text">Some quick example text to build on the card title and make
+                                        up the
+                                        bulk of the card's content.</p>
+                                </div>
                             </div>
                         </div>
                     </div>
+                </div>
 
+                    <div class="row">
+                        <!-- <div class="col-lg-4 mb-2 mb-lg-0">
+                            <div class="hover-2-content px-5 py-4"> -->
+                                <div class="cardRow2" style="width: 18rem;">
+                                    <img src="images/Ameer's PokeDex1.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the
+                                            bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="col-lg-4 mb-2 mb-lg-0">
+                            <div class="hover-2-content px-5 py-4"> -->
+                                <div class="cardRow2" style="width: 18rem;">
+                                    <img src="images/sampleECommerce.png" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <p class="card-text">Some quick example text to build on the card title and make
+                                            up the
+                                            bulk of the card's content.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-
-            <div class="py-5">
-                <div class="row">
-
-                    <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover hover-2 text-white rounded"><img src="images/Ameer's PokeDex1.png">
-                            <div class="hover-overlay"></div>
-                            <div class="hover-2-content px-5 py-4">
-                                <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
-                                        class="font-weight-light"> Pokedex </span> Web App</h3>
-                                <p class="hover-2-description text-uppercase mb-0">Autocomplete search bar to query
-                                    <br>names of Pokemon using the Pokemon API.
-                                    <br><a href="https://github.com/Ameer28/AmeerPokedex.git" target="_blank">Github
-                                        Repository</a></p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover hover-2 text-white rounded"><img src="">
-                            <div class="hover-overlay"></div>
-                            <div class="hover-2-content px-5 py-4">
-                                <h3 class="hover-2-title text-uppercase font-weight-bold mb-0"> <span
-                                        class="font-weight-light">Currency Converter <br> </span>Web App</h3>
-                                <p class="hover-2-description text-uppercase mb-0">Website for a client using <br> HTML,
-                                    CSS
-                                    & JQuery
-                                    <br><a href="https://github.com/Ameer28/TECHLearningCentre.git"
-                                        target="_blank">Github
-                                        Repository</a></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
         </section>
 
-        <!-------------------------------About Me------------------------------------->
+        <!---------------------------About Me-------------------------------->
         <section class="aboutMe" id="contact">
             <h1>About Me</h1>
             <div class="container">
@@ -266,15 +257,15 @@ $msg = 'Please use a valid email';
 
         </section>
 
-        <!-----------------------------------Footer-------------------------------------->
+        <!----------------------------Footer-------------------------------->
         <footer class="copyrightFoot">
             <p>Copyright &#169 2020 Ameer Pestana</p>
         </footer>
 
-        <!----------------------------My JS & Jquery---------------------------------->
+        <!-----------------------JS & Jquery----------------------------->
         <script type="text/javascript" src="main.js"></script>
 
-        <!-------------------------------Bootstrap JS--------------------------------->
+        <!-------------------------Bootstrap JS----------------------------->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
         </script>

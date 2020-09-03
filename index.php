@@ -231,7 +231,12 @@ $msg = 'Please use a valid email';
             <div class="container">
                 <div class="row">
 
-                    <div class="col-lg-6">
+                <div class="col-lg-4">
+                        <div class="myProfileDescription">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
                         <div class="myProfileDescription">
                             <p>Ut venenatis lorem bibendum lacus cursus tincidunt. Aliquam gravida aliquet sapien sit
                                 amet finibus. Morbi quis sapien nisi. Pellentesque non tincidunt lorem.
@@ -240,6 +245,10 @@ $msg = 'Please use a valid email';
                         </div>
                     </div>
 
+                    <div class="col-lg-4">
+                        <div class="myProfileDescription">
+                        </div>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-12">

@@ -154,39 +154,33 @@ $msg = 'Please use a valid email';
                 <div class="row">
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover-2-content px-5 py-4">
+                        <div class="hover-2-content">
                             <div class="card" style="width: 18rem;">
                                 <img src="images/PwCAcademy.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
+                                    <p class="card-text">HTML and CSS code on Github</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover-2-content px-5 py-4">
+                        <div class="hover-2-content">
                             <div class="card" style="width: 18rem;">
                                 <img src="images/TECHLearningCentreScreenshot.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make up
-                                        the
-                                        bulk of the card's content.</p>
+                                    <p class="card-text">HTML, CSS and JQUERY code on Github</p>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
-                        <div class="hover-2-content px-5 py-4">
+                        <div class="hover-2-content">
                             <div class="card" style="width: 18rem;">
                                 <img src="images/e-viet.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">Some quick example text to build on the card title and make
-                                        up the
-                                        bulk of the card's content.</p>
+                                    <p class="card-text">BOOTSTRAP and SASS code on Github</p>
                                 </div>
                             </div>
                         </div>
@@ -194,21 +188,19 @@ $msg = 'Please use a valid email';
                 </div>
 
                     <div class="row">
-                        <!-- <div class="col-lg-4 mb-2 mb-lg-0">
-                            <div class="hover-2-content px-5 py-4"> -->
+                        <div class="col-lg-6">
+                            <div class="hover-3-content">
                                 <div class="cardRow2" style="width: 18rem;">
                                     <img src="images/Ameer's PokeDex1.png" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <p class="card-text">Some quick example text to build on the card title and make
-                                            up the
-                                            bulk of the card's content.</p>
+                                        <p class="card-text">HTML, CSS and JAVASCRIPT code on Github</p>
                                     </div>
                                 </div>
-                            </div>
+                            </div>  
                         </div>
 
-                        <!-- <div class="col-lg-4 mb-2 mb-lg-0">
-                            <div class="hover-2-content px-5 py-4"> -->
+                        <div class="col-lg-4">
+                            <div class="hover-3-content">
                                 <div class="cardRow2" style="width: 18rem;">
                                     <img src="images/sampleECommerce.png" class="card-img-top" alt="...">
                                     <div class="card-body">

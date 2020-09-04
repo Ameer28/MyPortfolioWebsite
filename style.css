@@ -158,10 +158,14 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
     padding: 1rem 10rem 2rem 10rem;
 }
 
-/* .hover-2-content {
-    padding: 0;
+.hover-2-content {
+    padding: 0 0 0 7rem;
     margin: 0;
-} */
+}
+
+.hover-3-content {
+    padding: 2rem 0 1rem 18rem;
+}
 
 /* .second {
     padding: 1rem 10rem 1rem 10rem;

@@ -167,6 +167,11 @@ div.container-fluid, .container-lg, .container-md, .container-sm, .container-xl 
     padding: 2rem 0 1rem 18rem;
 }
 
+div.card-body {
+    background-color: #fff;
+    border-radius: 5px;
+}
+
 /* .second {
     padding: 1rem 10rem 1rem 10rem;
 } */

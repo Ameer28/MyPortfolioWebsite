@@ -178,9 +178,9 @@ $msg = 'Please use a valid email';
                     <div class="col-lg-4 mb-3 mb-lg-0">
                         <div class="hover-2-content">
                             <div class="card" style="width: 18rem;">
-                                <img src="images/e-viet.png" class="card-img-top" alt="...">
+                                <img src="images/e-vietScreenShot.png" class="card-img-top" alt="...">
                                 <div class="card-body">
-                                    <p class="card-text">BOOTSTRAP and SASS code on Github</p>
+                                    <p class="card-text">HTML, BOOTSTRAP and SASS code on Github</p>
                                 </div>
                             </div>
                         </div>

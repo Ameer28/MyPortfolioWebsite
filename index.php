@@ -156,7 +156,9 @@ $msg = 'Please use a valid email';
                     <div class="col-lg-4 mb-3 mb-lg-0">
                         <div class="hover-2-content">
                             <div class="card" style="width: 18rem;">
+                            <a href="">
                                 <img src="images/PwCAcademy.png" class="card-img-top" alt="...">
+                                </a>
                                 <div class="card-body">
                                     <p class="card-text">HTML and CSS code on Github</p>
                                 </div>
@@ -167,7 +169,9 @@ $msg = 'Please use a valid email';
                     <div class="col-lg-4 mb-3 mb-lg-0">
                         <div class="hover-2-content">
                             <div class="card" style="width: 18rem;">
+                            <a href="">
                                 <img src="images/TECHLearningCentreScreenshot.png" class="card-img-top" alt="...">
+                                </a>
                                 <div class="card-body">
                                     <p class="card-text">HTML, CSS and JQUERY code on Github</p>
                                 </div>
@@ -178,7 +182,9 @@ $msg = 'Please use a valid email';
                     <div class="col-lg-4 mb-3 mb-lg-0">
                         <div class="hover-2-content">
                             <div class="card" style="width: 18rem;">
-                                <img src="images/e-vietScreenShot.png" class="card-img-top" alt="...">
+                                <a href="">
+                                    <img src="images/e-vietScreenShot.png" class="card-img-top" alt="...">
+                                </a>
                                 <div class="card-body">
                                     <p class="card-text">HTML, BOOTSTRAP and SASS code on Github</p>
                                 </div>
@@ -187,7 +193,7 @@ $msg = 'Please use a valid email';
                     </div>
                 </div>
 
-                    <div class="row">
+                    <!-- <div class="row">
                         <div class="col-lg-6">
                             <div class="hover-3-content">
                                 <div class="cardRow2" style="width: 18rem;">
@@ -212,7 +218,7 @@ $msg = 'Please use a valid email';
                             </div>
                         </div>
 
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </section>

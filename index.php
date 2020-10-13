@@ -20,7 +20,7 @@ $msg = 'Please use a valid email';
     $msgClass = 'alert-danger';
     } else {
         //Passed
-        $to_email = 'ameer.pestana@theeviet.com';
+        $to_email = 'ameer.pestana@gmail.com';
         $subject = 'Contact Request From ' .$name;
         $body = '<h2>Contact Request </h2>
         <h4>Name</h4><p>' .$name.'</p>
@@ -183,10 +183,11 @@ $msg = 'Please use a valid email';
                         <div class="hover-2-content">
                             <div class="card" style="width: 18rem;">
                                 <a href="">
-                                    <img src="images/e-vietScreenShot.png" class="card-img-top" alt="...">
+                                    <img src="images/evieticon.png" class="card-img-top evietImg" alt="...">
                                 </a>
                                 <div class="card-body">
-                                    <p class="card-text">HTML, BOOTSTRAP and SASS code on Github</p>
+                                <h4>E-Viet Android App Website</h>
+                                    <p class="card-text">HTML, BOOTSTRAP and SASS</p>
                                 </div>
                             </div>
                         </div>
@@ -236,10 +237,7 @@ $msg = 'Please use a valid email';
 
                     <div class="col-lg-4">
                         <div class="myProfileDescription">
-                            <p>Ut venenatis lorem bibendum lacus cursus tincidunt. Aliquam gravida aliquet sapien sit
-                                amet finibus. Morbi quis sapien nisi. Pellentesque non tincidunt lorem.
-                                Aenean non sollicitudin mi, ac mollis mi. Suspendisse vehicula ligula eu consequat
-                                aliquet. Curabitur ultricies semper scelerisque.</p>
+                            <p>Hard-working web developer with corporate </p>
                         </div>
                     </div>
 

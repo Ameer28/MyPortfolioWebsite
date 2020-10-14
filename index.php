@@ -186,7 +186,7 @@ $msg = 'Please use a valid email';
                                     <img src="images/evieticon.png" class="card-img-top evietImg" alt="...">
                                 </a>
                                 <div class="card-body">
-                                <h4>E-Viet Android App Website</h>
+                                <h5>E-Viet Android App Website</h5>
                                     <p class="card-text">HTML, BOOTSTRAP and SASS</p>
                                 </div>
                             </div>
@@ -237,7 +237,7 @@ $msg = 'Please use a valid email';
 
                     <div class="col-lg-4">
                         <div class="myProfileDescription">
-                            <p>Hard-working web developer with corporate </p>
+                            <p>Meticulous web developer with front end experience and passion for responsive website design and a firm believer in the mobile-first approach.</p>
                         </div>
                     </div>
 

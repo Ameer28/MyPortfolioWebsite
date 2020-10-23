@@ -183,7 +183,7 @@ $msg = 'Please use a valid email';
                         <div class="hover-2-content">
                             <div class="card" style="width: 18rem;">
                                 <a href="">
-                                    <img src="images/evieticon.png" class="card-img-top evietImg" alt="...">
+                                    <img src="images/e-vietScreenShot.png" class="card-img-top evietImg" alt="...">
                                 </a>
                                 <div class="card-body">
                                 <h5>E-Viet Android App Website</h5>

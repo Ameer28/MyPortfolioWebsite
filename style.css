@@ -172,9 +172,9 @@ div.card-body {
     border-radius: 5px;
 }
 
-.evietImg {
+/* .evietImg {
     padding: 5rem;
-}
+} */
 
 /* .second {
     padding: 1rem 10rem 1rem 10rem;
@@ -280,7 +280,7 @@ div.card-body {
 }
 
 .myProfileDescription p {
-    font-size: 22px;
+    font-size: 18px;
     color: #00A1AB;
 }
 

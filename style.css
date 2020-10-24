@@ -172,6 +172,10 @@ div.card-body {
     border-radius: 5px;
 }
 
+.card {
+    width: 18rem;
+}
+
 /* .evietImg {
     padding: 5rem;
 } */
@@ -339,7 +343,7 @@ div.card-body {
     }
 
     .hero div h1 {
-        font-size: 24px;
+        font-size: 32px;
     }
 
     .hero div h3 {
@@ -347,9 +351,7 @@ div.card-body {
     }
 
     button.btn.btn-primary {
-        width: 10rem;
-        height: 4rem;
-        font-size: 20px;
+        display: none;
     }
 
     #myProjects h1 {
@@ -359,7 +361,25 @@ div.card-body {
     }
 
     div.py-5 {
-        padding: 1.5rem !important;
+        padding: 3rem !important;
+        margin: auto;
+        width: 100%;
+    }
+
+    .hover-2-content {
+        width: 100%;
+        margin: auto;
+        padding: 0 0 2rem 0;
+    }
+
+    .card {
+        width: 100%;
+        margin: auto;
+    }
+
+    .card-text {
+        color: #00A1AB;
+        opacity: 75%;
     }
 
     .font-weight-light {
@@ -391,7 +411,7 @@ div.card-body {
     }
 
     .socialNetworks a {
-        display: flex;
+        display: inline;
     }
     
     .socialNetworks img {

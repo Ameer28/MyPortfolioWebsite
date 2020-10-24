@@ -155,12 +155,15 @@ $msg = 'Please use a valid email';
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
                         <div class="hover-2-content">
-                            <div class="card" style="width: 18rem;">
-                            <a href="">
+                            <div class="card">
+                            <a href="https://www.pwc.com/sg/en/academy.html" target="_blank">
                                 <img src="images/PwCAcademy.png" class="card-img-top" alt="...">
                                 </a>
                                 <div class="card-body">
-                                    <p class="card-text">HTML and CSS code on Github</p>
+                                    <h5>PwC Academy Website</h5>
+                                    <a href="https://github.com/Ameer28/PwCSGAcademyLMS" target="_blank">
+                                    <p class="card-text">HTML, CSS and JavaScript</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -168,12 +171,15 @@ $msg = 'Please use a valid email';
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
                         <div class="hover-2-content">
-                            <div class="card" style="width: 18rem;">
-                            <a href="">
+                            <div class="card">
+                            <a href="https://techlearningcentre.netlify.app/" target="_blank">
                                 <img src="images/TECHLearningCentreScreenshot.png" class="card-img-top" alt="...">
                                 </a>
                                 <div class="card-body">
-                                    <p class="card-text">HTML, CSS and JQUERY code on Github</p>
+                                    <h5>Tech Learning Centre</h5>
+                                    <a href="https://github.com/Ameer28/TECHLearningCentre" target="_blank">
+                                    <p class="card-text">HTML, CSS and JQUERY</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -181,13 +187,15 @@ $msg = 'Please use a valid email';
 
                     <div class="col-lg-4 mb-3 mb-lg-0">
                         <div class="hover-2-content">
-                            <div class="card" style="width: 18rem;">
-                                <a href="">
+                            <div class="card">
+                                <a href="https://eviet-app.netlify.app/" target="_blank">
                                     <img src="images/e-vietScreenShot.png" class="card-img-top evietImg" alt="...">
                                 </a>
                                 <div class="card-body">
                                 <h5>E-Viet Android App Website</h5>
+                                <a href="https://github.com/Ameer28/E-VietMobileApplicationWebsite" target="_blank">
                                     <p class="card-text">HTML, BOOTSTRAP and SASS</p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -250,9 +258,9 @@ $msg = 'Please use a valid email';
                     <div class="col-lg-12">
                         <div class="socialNetworks">
                             <span class="socialNetworkHover">
-                                <a href="https://www.linkedin.com/in/ameer-pestana-284222114/">
+                                <a href="https://www.linkedin.com/in/ameer-pestana-284222114/" target="_blank">
                                     <img src="images/icons8-linkedin-120.png"></a>
-                                <a href="https://github.com/Ameer28/">
+                                <a href="https://github.com/Ameer28/" target="_blank">
                                     <img src="images/icons8-github-120.png"></a>
                             </span>
                         </div>
@@ -271,9 +279,7 @@ $msg = 'Please use a valid email';
         <script type="text/javascript" src="main.js"></script>
 
         <!-------------------------Bootstrap JS----------------------------->
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
-        </script>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
             integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
         </script>

@@ -153,7 +153,7 @@ $msg = 'Please use a valid email';
             <div class="py-5">
                 <div class="row">
 
-                    <div class="col-lg-4 mb-3 mb-lg-0">
+                    <div class="col-lg-3 mb-3 mb-lg-0">
                         <div class="hover-2-content">
                             <div class="card">
                             <a href="https://www.pwc.com/sg/en/academy.html" target="_blank">
@@ -162,14 +162,14 @@ $msg = 'Please use a valid email';
                                 <div class="card-body">
                                     <h5>PwC Academy Website</h5>
                                     <a href="https://github.com/Ameer28/PwCSGAcademyLMS" target="_blank">
-                                    <p class="card-text">HTML, CSS and JavaScript</p>
+                                    <p class="card-text">HTML, CSS and JAVASCRIPT</p>
                                     </a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 mb-3 mb-lg-0">
+                    <div class="col-lg-3 mb-3 mb-lg-0">
                         <div class="hover-2-content">
                             <div class="card">
                             <a href="https://techlearningcentre.netlify.app/" target="_blank">
@@ -185,7 +185,7 @@ $msg = 'Please use a valid email';
                         </div>
                     </div>
 
-                    <div class="col-lg-4 mb-3 mb-lg-0">
+                    <div class="col-lg-3 mb-3 mb-lg-0">
                         <div class="hover-2-content">
                             <div class="card">
                                 <a href="https://eviet-app.netlify.app/" target="_blank">
@@ -200,15 +200,35 @@ $msg = 'Please use a valid email';
                             </div>
                         </div>
                     </div>
+
+                        <div class="col-lg-3 mb-3 mb-lg-0">
+                            <div class="hover-2-content">
+                                <div class="cardRow2" style="width: 18rem;">
+                                <a href="https://lipsstudio.netlify.app/" target="_blank">
+                                    <img src="images/lipsstudio.png" class="card-img-top" alt="...">
+                                    </a>
+                                    <div class="card-body">
+                                    <h5>Lips Studio Website</h5>
+                                    <a href="https://github.com/Ameer28/LipsStudio" target="_blank">
+                                        <p class="card-text">BOOTSTRAP, CSS and ANGULAR</p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+
                 </div>
 
                     <!-- <div class="row">
                         <div class="col-lg-6">
                             <div class="hover-3-content">
                                 <div class="cardRow2" style="width: 18rem;">
-                                    <img src="images/Ameer's PokeDex1.png" class="card-img-top" alt="...">
+                                    <img src="images/lipsstudio.png" class="card-img-top" alt="...">
                                     <div class="card-body">
-                                        <p class="card-text">HTML, CSS and JAVASCRIPT code on Github</p>
+                                    <h5>Lips Studio Website</h5>
+                                    <a href="https://github.com/Ameer28/LipsStudio" target="_blank">
+                                        <p class="card-text">Bootstrap, CSS and Angular</p>
+                                        </a>
                                     </div>
                                 </div>
                             </div>  
@@ -230,6 +250,7 @@ $msg = 'Please use a valid email';
                     </div> -->
                 </div>
             </div>
+
         </section>
 
         <!---------------------------About Me-------------------------------->
